@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width:  80%;
+    padding: 34px;
+    margin: auto;  /* to make center*/
+}
+
+.container h1{   
+    font-size: 40px;
+    text-align: center;    /*this make the h3 and p in center*/
+    font-family: 'Sriracha', cursive;
+}
+
+p{
+    font-size: 16px;
+    text-align: center;    /*this make the h3 and p in center*/
+    font-family: 'Sriracha', cursive;
+}
+
+/* Make input, textarea, and select the same style */
+input, textarea, select {
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    width: 80%;          /* same width for all boxes */
+    margin: 11px auto;
+    padding: 7px;
+    background-color: white;
+}
+
+/* Remove default dropdown arrow to look like input */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+.SubmitMsg{
+    font-size: 18px;
+    color: green;
+}
+
