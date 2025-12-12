@@ -21,7 +21,7 @@ A simple **Travel/Party Form** built using *PHP* & *HTML*.
 
 ## 🖼 Screenshots
 
-![Travel Form Screenshot](nast.jpg)
+![Travel Form Screenshot](nast1.png)
 
 ---
 
