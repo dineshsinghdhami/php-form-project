@@ -5,7 +5,7 @@ if(isset($_POST['Name'])){
 $server = "localhost";
 $username = "root";
 $password = "";
-$db = "trip"; // replace with your actual DB name
+$db = "trip"; 
 
 // Connect to DB
 $con = mysqli_connect($server, $username, $password, $db);
@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Travel form</title>
+    <title>PORK Party Form</title>
     <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Sriracha&display=swap" rel="stylesheet">
 </head>
@@ -97,3 +97,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     </body>
 </html>
+
